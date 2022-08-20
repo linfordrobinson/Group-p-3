@@ -4,6 +4,16 @@
   background-size: 140%;
 }
 
+.carousel-caption {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 
 .navbar {
 background-color: #4e1f86;
