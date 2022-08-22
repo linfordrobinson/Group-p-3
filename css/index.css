@@ -6,6 +6,7 @@
 
 .carousel-caption {
   position: absolute;
+  font-size: 128px;
   bottom: 20px;
   right: 20px;
   background-color: black;
@@ -13,6 +14,7 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+
 
 
 .navbar {
@@ -124,6 +126,16 @@ background-color: #4e1f86;
   width: 40px;
   height: 40px;
 }
+
+#carouselHousingIndicators {
+  padding: 50px;
+}
+
+
+
+
+
+
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
@@ -412,6 +424,7 @@ background-color: #4e1f86;
   .u-section-2 .u-sheet-1 {
     min-height: 414px;
   }
+  
 
   .u-section-2 .u-container-layout-1 {
     padding-top: 9px;
@@ -466,6 +479,16 @@ background-color: #4e1f86;
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
     min-height: 349px;
+  }
+  .carousel-caption {
+    position: absolute;
+    font-size: 128px;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .u-section-2 .u-list-1 {
